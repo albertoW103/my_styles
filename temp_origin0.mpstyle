@@ -1,0 +1,67 @@
+# Matplotlib plot style configuration
+# style similar to origin
+
+# Font for text:
+#font.family         : sans-serif             # Font family type for text
+#font.family         : source sans pro        # Font family type for text
+
+font.size           : 12                     # Font size
+axes.labelsize      : 16                     # Size of axis label (x, y)
+axes.titlesize      : 16                     # Size of plot title
+axes.titlepad       : 6.0                    # Spacing between title and plot
+axes.prop_cycle     : cycler('color', ['FE0000', '0000FE', '008001', 'FD8000', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+
+# Line and marker properties:
+axes.linewidth           : 1.1               # Width of the axis lines
+lines.markersize         : 6                 # Marker size
+markers.fillstyle        : full              # Default marker fill style as filled circles
+lines.markeredgewidth    : 0.8               # Marker edge width
+
+# Margin of the plot:
+axes.xmargin        : 0                      # Margin on the x-axis
+axes.ymargin        : 0                      # Margin on the y-axis
+
+# Figure size and layout:
+figure.figsize         : 6.4, 4.8            # Figure size (width, height)
+figure.subplot.left    : 0.177               # Left position of the subplot
+figure.subplot.right   : 0.946               # Right position of the subplot
+figure.subplot.bottom  : 0.156               # Bottom position of the subplot
+figure.subplot.top     : 0.965               # Top position of the subplot
+
+# Axes behavior:
+axes.autolimit_mode : round_numbers          # Automatic limit adjustment mode
+
+# Show ticks:
+xtick.top           : True                   # Show ticks on the top side of the x-axis
+xtick.bottom        : True                   # Show ticks on the bottom side of the x-axis
+ytick.left          : True                   # Show ticks on the left side of the y-axis
+ytick.right         : True                   # Show ticks on the right side of the y-axis
+
+# Tick behavior:
+xtick.major.size    : 7                      # Size of major ticks on x-axis
+xtick.minor.size    : 3.5                    # Size of minor ticks on x-axis
+xtick.major.width   : 1.1                    # Width of major ticks on x-axis
+xtick.minor.width   : 1.1                    # Width of minor ticks on x-axis
+xtick.major.pad     : 5                      # Padding of major ticks on x-axis
+xtick.minor.visible : True                   # Visibility of minor ticks on x-axis
+ytick.major.size    : 7                      # Size of major ticks on y-axis
+ytick.minor.size    : 3.5                    # Size of minor ticks on y-axis
+ytick.major.width   : 1.1                    # Width of major ticks on y-axis
+ytick.minor.width   : 1.1                    # Width of minor ticks on y-axis
+ytick.major.pad     : 5                      # Padding of major ticks on y-axis
+ytick.minor.visible : True                   # Visibility of minor ticks on y-axis
+
+# Tick direction:
+xtick.direction     : out                    # Tick direction on the x-axis ('in', 'out', or 'inout')
+ytick.direction     : out                    # Tick direction on the y-axis ('in', 'out', or 'inout')
+
+# Font for numbers:
+xtick.labelsize     : 12                     # Font size for numbers on the x-axis
+ytick.labelsize     : 12                     # Font size for numbers on the y-axis
+
+# Legend settings:
+legend.fontsize     : 12                     # Font size in legend
+legend.loc          : best                   # Location of the legend
+legend.frameon      : False                  # Show or hide legend frame
+
+

@@ -1,0 +1,85 @@
+# This file contains a list of properties to plot using matplotlib
+
+# default options are:
+# [‘Solarize_Light2’, ‘_classic_test_patch’, ‘bmh’, ‘classic’, ‘dark_background’, ‘fast’, ‘fivethirtyeight’, ‘ggplot’,’grayscale’,’seaborn’,’seaborn-bright’,’seaborn-colorblind’, ‘seaborn-dark’, ‘seaborn-dark-palette’, ‘seaborn-darkgrid’, ‘seaborn-deep’, ‘seaborn-muted’, ‘seaborn-notebook’, ‘seaborn-paper’, ‘seaborn-pastel’, ‘seaborn-poster’,’seaborn-talk’,’seaborn-ticks’,’seaborn-white’,’seaborn-whitegrid’,’tableau-colorblind10′]
+# Above styles are called as:
+# from matplotlib import style   # import the submodule style from module matplotlib
+# plt.style.use(‘style_name”)
+
+# some examples:
+# https://towardsdatascience.com/how-to-create-and-use-custom-matplotlib-style-sheet-9393f498063
+# https://python-charts.com/matplotlib/styles/
+
+# how to find defaults style of matplotlib:
+# import matplotlib
+# matplotlib.matplotlib_fname()
+
+
+# Figure properties:
+# matplotlib.figure  , se llama al submodulo figure del modulo matplotlib
+# dentro del submodulo figure llamamos a distintas funciones:
+figure.figsize: 7,6                     # define el tamaño de la figura: width, broad 
+#figure.constrained_layout: True         # ajusta el plot dentro de la figura
+
+# Font:
+# dentro del modulo matplotlib llamamos a los siguientes submodulos.
+# dentro de submodulo, llamamos funciones
+# 'serif' | 'sans-serif' | 'cursive' | 'fantasy' | 'monospace' 
+
+font.family: sans-serif     # Origin
+#font.sans-serif: ['Arial', 'Helvetica', 'Verdana', 'DejaVu Sans'] # Origin
+font.size: 12               # Origin
+axes.titlesize:     x-large #
+axes.labelsize:     large   #
+
+# Colors:
+axes.prop_cycle: cycler('color', ['000000', '0000FE', 'FE0000', '008001', 'FD8000', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+
+# Axes:
+axes.linewidth: 1.1   # Origin
+axes.labelpad: 5      # Origin
+axes.xmargin: 0       # Origin
+axes.ymargin: 0       # Origin
+
+#Tick properties
+
+# x-axis
+xtick.top: True
+xtick.direction: in
+#xtick.major.size: 7
+#xtick.major.width: 2
+xtick.minor.visible : True
+#xtick.minor.size: 4
+#xtick.minor.width: 1.5
+#xtick.labelsize: medium        
+
+
+# y-axis
+ytick.right: True
+ytick.direction: in
+
+ytick.major.size: 7
+ytick.major.width: 2
+
+ytick.minor.visible : True
+ytick.minor.size: 4
+ytick.minor.width: 1.5
+ytick.labelsize: medium 
+
+#lines preoperties
+
+lines.linewidth: 2
+
+# Legend:
+legend.loc           : best    # position of the legend
+legend.framealpha    : None    # opacity of legend frame
+#legend.framealpha   : 1.0     # opacity of legend frame
+legend.frameon       : False   # whether or not to draw a frame around legend
+legend.fontsize      : 12      #
+legend.labelspacing  : 0.5     # the vertical space between the legend entries in fraction of fontsize
+legend.shadow        : False   #
+legend.fancybox      : False   # if True, use a rounded box for the
+                                   # legend, else a rectangle
+
+
+
