@@ -21,12 +21,12 @@ lines.markeredgewidth    : 0.8               # Marker edge width
 axes.xmargin        : 0                      # Margin on the x-axis
 axes.ymargin        : 0                      # Margin on the y-axis
 
-# Figure size and layout:
+# Figure size and layout ('disposicion del subplot dentro del lienzo'):
 figure.figsize         : 6.4, 4.8            # Figure size (width, height)
-figure.subplot.left    : 0.177               # Left position of the subplot
-figure.subplot.right   : 0.946               # Right position of the subplot
-figure.subplot.bottom  : 0.156               # Bottom position of the subplot
-figure.subplot.top     : 0.965               # Top position of the subplot
+figure.subplot.left    : 0.177               # Distance (0-1) from Left
+figure.subplot.right   : 0.946               # Diatance (0-1) from Right
+figure.subplot.bottom  : 0.150               # Distance (0-1) from Bottom
+figure.subplot.top     : 0.950               # Distance (0-1) from Top
 
 # Axes behavior:
 axes.autolimit_mode : round_numbers          # Automatic limit adjustment mode
